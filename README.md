@@ -6,11 +6,11 @@
  Simply enter the name of the book you are looking for and BookBack will find it for you, as well as any other books fitting the description/Author.  You are able to save these books to a local database and we even provide a link to purchase the book.
 
 ## Table of Contents
-* [License Information](#license)
-* [Installation Procedure](#install)
-* [Usage Information](#usage)
-* [Contribution Guidelines](#contribution)
-* [Testing Instructions](#test)
+* [License Information](#License)
+* [Installation Procedure](#Install)
+* [Usage Information](#Usage)
+* [Contribution Guidelines](#Contribution)
+* [Testing Instructions](#Test)
 * [Questions](#Questions)
 
 ## License Information
