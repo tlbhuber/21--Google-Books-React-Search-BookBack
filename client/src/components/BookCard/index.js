@@ -38,12 +38,12 @@ function BookCard(props) {
               style={{
                 marginTop: 5,
                 marginBottom: 10,
-                backgroundColor: "#173a85",
+                backgroundColor: "blue",
                 borderColor: "white",
                 color: "white",
               }}
             >
-              View
+              More Info
             </Button>
             {props.children}
           </Grid>
