@@ -32,12 +32,18 @@ This project's code is allowed to be "set free" using [The Do What the F**k You 
  .
 
 ## Usage Information
- Anyone may use this application.  
- *image
+ Anyone may use this application.
+
+ ![Splash Screen](https://github.com/tlbhuber/21--Google-Books-React-Search-BookBack/blob/main/client/public/img/Splash.PNG "Splash Screen")
+
  Once the application is running, enter the search paramaters into the Search bar and click the "Search" button. 
- *image 
+ 
+ ![Search Screen](https://github.com/tlbhuber/21--Google-Books-React-Search-BookBack/blob/main/client/public/img/Searched.PNG "Search Screen")
+
  If you wish to save the items into your database, click the "Save" button under the image of the book.  
- *image
+ 
+ ![Saved Screen](https://github.com/tlbhuber/21--Google-Books-React-Search-BookBack/blob/main/client/public/img/Saved.PNG "Saved Screen")
+ 
  If you wish to purchase or see more information about the book, click "View".
 
 ## Contribution Guidelines
