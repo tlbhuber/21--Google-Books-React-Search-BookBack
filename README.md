@@ -32,7 +32,13 @@ This project's code is allowed to be "set free" using [The Do What the F**k You 
  .
 
 ## Usage Information
- Anyone may use this application.  Once the application is running, enter the search paramaters into the Search bar and click the "Search" button.  If you wish to save the items into your database, click the "Save" button under the image of the book.  If you wish to purchase or see more information about the book, click "View".
+ Anyone may use this application.  
+ *image
+ Once the application is running, enter the search paramaters into the Search bar and click the "Search" button. 
+ *image 
+ If you wish to save the items into your database, click the "Save" button under the image of the book.  
+ *image
+ If you wish to purchase or see more information about the book, click "View".
 
 ## Contribution Guidelines
  Curerntly not looking for contributions to this app as it was a project for school.
