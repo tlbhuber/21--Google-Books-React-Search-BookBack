@@ -1,4 +1,3 @@
-# 21--Google-Books-React-Search-BookBack
 # BookBack - A Google Books Search
 
 
