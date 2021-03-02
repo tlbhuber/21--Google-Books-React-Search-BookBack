@@ -1,4 +1,6 @@
-# BookBack - A Google Books Search
+# BookBack 
+
+## A Google Books API Search
 
 
 
@@ -22,14 +24,13 @@ This project's code is allowed to be "set free" using [The Do What the F**k You 
 
 ## Installation Procedure
  *Clone the repo and run: 
- ```bash 
- npm install
- ``` 
+ 
+ `npm install`
+ 
  *In order to install the dependency packages.  After all packages are installed run: 
- ```bash 
- npm start 
- ```
- .
+ 
+ `npm start`
+ 
 
 ## Usage Information
  Anyone may use this application.
