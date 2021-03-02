@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import BookCard from "../components/BookCard/index";
 import Container from "@material-ui/core/Container";
 import Paper from "@material-ui/core/Paper";
-import BooksIcon from "@material-ui/icons/LibraryBooksOutlined";
+import LocalLibraryTwoToneIcon from '@material-ui/icons/LocalLibraryTwoTone';
 import Button from "@material-ui/core/Button";
 
 
@@ -32,16 +32,16 @@ function Saved() {
     <Container>
       <Paper
         style={{
-          backgroundColor: "#474747",
+          backgroundColor: "black",
           marginBottom: 100,
           paddingBottom: 25,
         }}
       >
         <Paper
-          elevation={4}
+          elevation={24}
           style={{
-            backgroundColor: "#474747",
-            height: 225,
+            backgroundColor: "#566573",
+            height: 400,
             marginBottom: 35,
           }}
         >
@@ -51,25 +51,30 @@ function Saved() {
                 textAlign: "center",
                 color: "white",
                 paddingTop: 15,
-                fontFamily: "Gotu",
-              }}
-            >
-              <BooksIcon
-                fontSize="large"
-                style={{ marginRight: 10 }}
-              ></BooksIcon>
-              Welcome to Google Books!
-            </h1>
-            <h2
-              style={{
-                color: "white",
-                textAlign: "center",
-                fontStyle: "italic",
                 fontFamily: "Titillium Web",
               }}
             >
+              <LocalLibraryTwoToneIcon
+                fontSize="large"
+                style={{ 
+                  marginRight: 0,
+                  fontSize: 75 }}
+              ></LocalLibraryTwoToneIcon>
+            <br></br>
+            BookBack
+            </h1>
+            <h1
+              style={{
+                color: "white",
+                textAlign: "center",
+                fontFamily: "Titillium Web",
+                fontSize: 50
+              }}
+            >
               Your Saved Books
-            </h2>
+            </h1>
+            <br></br>
+
             <Grid
               item
               xs={12}
@@ -78,7 +83,8 @@ function Saved() {
               <Button
                 variant="outlined"
                 style={{
-                  marginRight: 20,
+                  marginRight: 50,
+                  backgroundColor: "blue",
                   color: "white",
                   borderColor: "white",
                   borderStyle: "solid"
@@ -92,8 +98,6 @@ function Saved() {
                 variant="disabled"
                 style={{
                   borderWidth: 1,
-                  color: "#5eff45",
-                  borderColor: "#5eff45",
                   borderStyle: "solid",
                 }}
               >
@@ -119,9 +123,10 @@ function Saved() {
                     onClick={() => deleteBook(data._id)}
                     variant="outlined"
                     style={{
-                      marginLeft: 20,
-                      marginTop: 20,
-                      backgroundColor: "#b80d38",
+                      marginLeft: 30,
+                      marginTop: 5,
+                      marginBottom: 10,
+                      backgroundColor: "#CE162D",
                       borderColor: "white",
                       color: "white",
                     }}

@@ -54,10 +54,10 @@ function Search() {
         }}
       >
         <Paper
-          elevation={4}
+          elevation={24}
           style={{
             backgroundColor: "#566573",
-            height: 300,
+            height: 450,
             marginBottom: 35,
           }}
         >
@@ -76,9 +76,26 @@ function Search() {
                   marginRight: 0,
                   fontSize: 75 }}
               ></LocalLibraryTwoToneIcon>
-              <br></br>
-              Welcome to Google Books!
             </h1>
+            <h1 style={{
+                color: "white",
+                textAlign: "center",
+                // fontStyle: "italic",
+                fontFamily: "Titillium Web",
+                fontSize: 50
+              }}
+              >
+                Welcome to BookBack!</h1>
+            <h2 style={{
+                color: "white",
+                textAlign: "center",
+                // fontStyle: "italic",
+                fontFamily: "Titillium Web",
+              }}
+            >
+              Search for your favorite books
+            </h2>
+            <br></br>
 
             <Grid
               item
@@ -87,7 +104,12 @@ function Search() {
             >
               <input placeholder="Search Book" onChange={handleInputChange} />
 
-              <Button variant="outlined" style={{ backgroundColor: "transparent", color: "White", borderColor: "white", marginLeft: 10 }} onClick={handleBtnClick}>
+              <Button variant="outlined" 
+              style={{ 
+                backgroundColor: "blue", 
+                color: "White", 
+                borderColor: "white", 
+                marginLeft: 10 }} onClick={handleBtnClick}>
                 Search
               </Button>
 
@@ -116,7 +138,7 @@ function Search() {
                 variant="outlined"
                 style={{
                   marginLeft: 50,
-                  backgroundColor: "blue",
+                  backgroundColor: "#93186C",
                   color: "white",
                   borderColor: "white",
                   borderStyle: "solid",
@@ -145,8 +167,9 @@ function Search() {
                     variant="outlined"
                     style={{
                       marginLeft: 30,
-                      marginTop: 20,
-                      backgroundColor: "#214d14",
+                      marginTop: 5,
+                      marginBottom: 10,
+                      backgroundColor: "#93186C",
                       borderColor: "white",
                       color: "white",
                     }}
@@ -162,7 +185,12 @@ function Search() {
         {googleBooks.length ? (
           <p></p>
         ) : (
-            <p style={{ textAlign: "center", color: "white", paddingTop: 20 }}>
+            <p style={{ 
+              textAlign: "center", 
+              color: "white", 
+              paddingTop: 50, 
+              fontSize: 23 
+              }}>
               Your searched books will appear in this space below. 
             </p>
           )}

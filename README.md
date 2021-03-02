@@ -3,7 +3,9 @@
 
 
 ## Project Description
- Simply enter the name of the book you are looking for and BookBack will find it for you, as well as any other books fitting the description/Author.  You are able to save these books to a local database and we even provide a link to purchase the book.
+ Simply enter the name of the book you are looking for and **BookBack** will find it for you, as well as any other books fitting the description/Author.  You are able to save these books to a local database and we even provide a link to purchase the book.
+
+ Deployed app (https://blooming-crag-88945.herokuapp.com/saved)
 
 ## Table of Contents
 * [License Information](#License)
